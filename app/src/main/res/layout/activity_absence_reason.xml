@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/absence" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Student was absent on 10 Sep 2016 for reason"
+            android:textColor="@color/colorSoftText"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Health Issue"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Family function"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Rainy Day"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Natural Disaster"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Out of station"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorRadioButton"
+                android:text="Other"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal" />
+
+        </RadioGroup>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:paddingLeft="@dimen/padding_edit_text"
+            android:paddingRight="@dimen/padding_edit_text">
+
+            <EditText
+                android:id="@+id/editTextReason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="sans-serif-normal"
+                android:hint="Reason"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorSoftText"
+                android:textSize="@dimen/text_size_normal"
+                android:visibility="gone" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button_horizontal"
+            android:background="@color/colorButton"
+            android:fontFamily="sans-serif-normal"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_normal" />
+
+    </LinearLayout>
+
+</ScrollView>

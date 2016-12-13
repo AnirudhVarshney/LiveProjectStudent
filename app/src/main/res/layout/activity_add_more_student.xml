@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlueBackground"
+    android:orientation="vertical"
+    tools:context=".activity.AddStudentActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginEnd="@dimen/marginLeft"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginStart="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editTextStudentName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_between_edit_text"
+                    android:drawableLeft="@drawable/studentet"
+                    android:drawablePadding="@dimen/small_padding"
+                    android:drawableStart="@drawable/studentet"
+                    android:hint="@string/student_name"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_normal" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editTextContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_between_edit_text"
+                    android:drawableLeft="@drawable/contactet"
+                    android:drawablePadding="@dimen/small_padding"
+                    android:drawableStart="@drawable/contactet"
+                    android:hint="@string/registered_contact"
+                    android:imeActionId="@+id/editTextAdd"
+                    android:imeActionLabel="Add"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_size_normal" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonAddStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:background="@color/colorButton"
+                android:fontFamily="sans-serif-normal"
+                android:text="@string/add_student"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_normal_smaller" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

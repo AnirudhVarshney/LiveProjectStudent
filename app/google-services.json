@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "659905319486",
+    "firebase_url": "https://student-aggregator-c6844.firebaseio.com",
+    "project_id": "student-aggregator-c6844",
+    "storage_bucket": "student-aggregator-c6844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659905319486:android:0a195c9a02080d64",
+        "android_client_info": {
+          "package_name": "org.studentaggregator.studentaggregator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659905319486-r0cn0f63dclammd0aq92gp59ma6e2744.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh4gEk6Y5PbFMZYhF3p9NyEu5wUwfVXYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

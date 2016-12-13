@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGreyBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/small_padding"
+            android:text="@string/message"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_big"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/small_padding"
+            android:text="@string/message"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/small_padding"
+            android:text="@string/status"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/small_padding"
+            android:text="@string/pending"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadowHeight"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

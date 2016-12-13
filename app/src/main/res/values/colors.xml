@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D6ECC</color>
+    <color name="colorPrimaryDark">#1E7EC8</color>
+    <color name="colorAccent">#1E7EC8</color>
+    <!--color name="colorAccent">#FFF</color-->
+    <color name="colorTitleBarDark">#1D6ECC</color>
+    <color name="colorRedBackground">#F44336</color>
+    <color name="colorBlueBackground">#409AE0</color>
+    <color name="colorButton">#1E7EC8</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOffWhite">#DDD</color>
+    <color name="colorPresent">#4385F6</color>
+    <color name="colorAbsent">#EE6352</color>
+    <color name="colorSoftText">#666666</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorHoliday">#FFEB59</color>
+    <color name="colorGrey">#C8C8C8</color>
+    <color name="colorGreen">#34A855</color>
+    <color name="colorRed">#EE6352</color>
+    <color name="colorYellow">#FCBE2F</color>
+    <color name="colorGreyBackground">#e8e8e8</color>
+    <color name="colorDarkerGreyBackground">#999</color>
+    <color name="your_color_res">#555</color>
+    <color name="colorRadioButton">#1D6ECC</color>
+</resources>

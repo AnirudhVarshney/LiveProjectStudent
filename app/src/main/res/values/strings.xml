@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Schulerz</string>
+    <string name="student_aggregator_logo">Schulerz Logo</string>
+    <string name="mother_teresa_quote">If you judge people, you have no time to love them\n- Mother Teresa</string>
+
+    <string name="institute_folder">sas_demoapp</string>
+
+    <string name="app_name_2lines">Schulerz</string>
+    <string name="noAccountYet">No account yet? Create one</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="WrongEmailPassword">Wrong Email or Password</string>
+    <string name="alreadyAMember">Already a member? Login</string>
+    <string name="description_app_logo">Application Logo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_Login">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_name">This name is invalid</string>
+    <string name="error_invalid_contact">This contact is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_code">6 Digit code is required</string>
+
+    <string name="navigation_drawer_open">Drawer Opened</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="authenticating">Authenticating...</string>
+    <string name="verifying">Verifying...</string>
+    <string name="no_internet_warning">Please check your internet connection and try again</string>
+
+    <string name="add_student">Add Student</string>
+    <string name="student_name">Student name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="fathers_name">Fathers name</string>
+    <string name="mothers_name">Mothers name</string>
+    <string name="service">Service</string>
+    <string name="fee">Fee</string>
+    <string name="attendance">Attendance</string>
+    <string name="notification">Notification</string>
+    <string name="name">Name :</string>
+    <string name="dummy_name">Dummy Name</string>
+    <string name="div">Div :</string>
+    <string name="classs">Class :</string>
+    <string name="house">House :</string>
+    <string name="submit_your_query">Submit your Query</string>
+    <string name="your_message">Your message</string>
+    <string name="message_sent">Your message has been sent</string>
+    <string name="total">Total</string>
+    <string name="dd_mmm_yyyy">dd mmm yyyy</string>
+    <string name="show_previous_month">Show previous month</string>
+    <string name="show_next_month">Show next month</string>
+
+
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    <string name="sending">Sending...</string>
+    <string name="help">help</string>
+    <string name="nameText">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="registered_contact">Registered contact</string>
+    <string name="about_us">About Us</string>
+    <string name="use_dummy_student">Use Dummy Student</string>
+
+
+    <string name="Oops">Oops something went wrong</string>
+    <string name="enter_6_digit..">Enter 6 Digit code that has been sent to</string>
+    <string name="six_digit_code">6 Digit Code</string>
+    <string name="submit">Submit</string>
+    <string name="dummy_class">12</string>
+    <string name="dummy_division">A</string>
+    <string name="dummy_house">Blue</string>
+    <string name="results">Results</string>
+    <string name="pending_fee">Pending Fee</string>
+    <string name="task">Task</string>
+    <string name="date">date</string>
+    <string name="title">Title</string>
+    <string name="description">description</string>
+    <string name="notification_image">Notification image</string>
+    <string name="nothing_to_show">Nothing to show</string>
+    <string name="download">Download</string>
+    <string name="message">Message</string>
+    <string name="status">Status</string>
+    <string name="pending">pending reply</string>
+
+    <string-array name="day_name_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+
+</resources>

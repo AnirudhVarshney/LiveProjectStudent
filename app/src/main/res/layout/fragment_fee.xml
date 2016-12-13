@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewPayment"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/error" />
+
+        <TextView
+            android:id="@+id/textViewPaid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="30dp"
+            android:text="Paid Rs 1000"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="15dp"
+            android:paddingTop="50sp"
+            android:text="12/12/12"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:drawable/stat_sys_download"
+            android:backgroundTint="@color/colorGrey"
+            android:padding="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

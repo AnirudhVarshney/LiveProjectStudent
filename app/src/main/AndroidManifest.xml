@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.studentaggregator.studentaggregator">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoTitle">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.TestActivity"
+            android:label="Test Lab"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.AddStudentActivity"
+            android:label="Add Student"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.WebsiteActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.OTPVerificationActivity"
+            android:label="OTP Verification"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.InitializeActivity"
+            android:label="Initializing"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.MenuActivity"
+            android:label="Dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.QueryActivity"
+            android:label="Query"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.AddMoreStudentActivity"
+            android:label="Add Student"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.HelpActivity"
+            android:label="Help content"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.StudentInfoActivity"
+            android:label="Student's Information"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.AttendanceActivity"
+            android:label="Attendance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.AbsenceReasonActivity"
+            android:label="Application"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:label="Notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.FullscreenImageActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.FeeActivity"
+            android:label="Fee"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.PaymentActivity"
+            android:label="Pay Fee"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.ServiceActivity"
+            android:label="Service"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.VideoPlayerActivity"
+            android:label="Video"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitle" />
+
+        <activity
+            android:name=".activity.ResultActivity"
+            android:label="Result"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.TaskActivity"
+            android:label="Task"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!--   ___________________________ UCropActivity _____________________________   -->
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:label="Crop Image"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!--   ___________________________receiver_____________________________   -->
+
+        <receiver android:name="org.studentaggregator.studentaggregator.alarm.AlarmReceiver" />
+
+        <receiver
+            android:name="org.studentaggregator.studentaggregator.alarm.SampleBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!--   ___________________________services_____________________________   -->
+
+        <service android:name=".fcm.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <service android:name=".fcm.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>
